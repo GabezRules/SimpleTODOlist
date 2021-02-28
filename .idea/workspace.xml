@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="DATACHANGE" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c8882cda-4646-470c-b6ce-905c80773db8" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_XL_API_29" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="navigationResourceFile" />
+        <option value="valueResourceFile" />
+        <option value="Kotlin Enum" />
+        <option value="Kotlin File" />
+        <option value="layoutResourceFile" />
+        <option value="Class" />
+        <option value="Kotlin Interface" />
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/MiquidoTask" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="ProjectId" id="1otRKRFkfeascPzLMsYohikJJz6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Pixel_XL_API_29" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-02-24T07:11:25.088Z" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.gabez.todo_list_simple.domain.entities" />
+      <recent name="com.gabez.todo_list_simple.data.pagination" />
+      <recent name="com.gabez.todo_list_simple.dataChangesTest" />
+      <recent name="com.gabez.todo_list_simple.data.firestore.responses" />
+      <recent name="com.gabez.todo_list_simple.app.itemValidation" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/font" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Android App.app">
+    <configuration name="DataChangesTest (1)" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gabez.todo_list_simple.dataChangesTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gabez.todo_list_simple.dataChangesTest" />
+      <option name="MAIN_CLASS_NAME" value="com.gabez.todo_list_simple.dataChangesTest.DataChangesTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataChangesTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gabez.todo_list_simple.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gabez.todo_list_simple" />
+      <option name="MAIN_CLASS_NAME" value="com.gabez.todo_list_simple.DataChangesTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ItemCompareTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gabez.todo_list_simple.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gabez.todo_list_simple" />
+      <option name="MAIN_CLASS_NAME" value="com.gabez.todo_list_simple.ItemCompareTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ItemHashMapConversionTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gabez.todo_list_simple.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gabez.todo_list_simple" />
+      <option name="MAIN_CLASS_NAME" value="com.gabez.todo_list_simple.ItemHashMapConversionTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ItemValidatorTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gabez.todo_list_simple.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gabez.todo_list_simple" />
+      <option name="MAIN_CLASS_NAME" value="com.gabez.todo_list_simple.ItemValidatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Android JUnit.ItemCompareTest" />
+        <item itemvalue="Android JUnit.DataChangesTest (1)" />
+        <item itemvalue="Android JUnit.DataChangesTest" />
+        <item itemvalue="Android JUnit.ItemHashMapConversionTest" />
+        <item itemvalue="Android JUnit.ItemValidatorTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="StructuralSearchPlugin">
+    <searchConfiguration name="user defined" created="1614286657595" text="com.google.firebase.firestore.QuerySnapshot" recursive="true" caseInsensitive="true" type="JAVA" pattern_context="default" scope_type="PROJECT" scope_descriptor="" history="1">
+      <constraint name="__context__" within="" contains="" />
+    </searchConfiguration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c8882cda-4646-470c-b6ce-905c80773db8" name="Default Changelist" comment="" />
+      <created>1614103835090</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1614103835090</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1507" y="165" width="1639" height="774" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1614199877422">
+      <screen x="1366" y="23" width="1920" height="1057" />
+    </state>
+    <state x="100" y="123" width="1166" height="545" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1366.745@0.23.1366.745" timestamp="1614170185851" />
+    <state x="1507" y="165" width="1639" height="774" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1614199877422" />
+    <state x="2106" y="266" key="#com.intellij.ide.util.MemberChooser" timestamp="1614515945355">
+      <screen x="1366" y="23" width="1920" height="1057" />
+    </state>
+    <state x="526" y="194" key="#com.intellij.ide.util.MemberChooser/0.23.1366.745@0.23.1366.745" timestamp="1614506859671" />
+    <state x="2106" y="266" key="#com.intellij.ide.util.MemberChooser/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1614515945355" />
+    <state x="1801" y="472" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1614515726116">
+      <screen x="1366" y="23" width="1920" height="1057" />
+    </state>
+    <state x="1801" y="472" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1614515726116" />
+    <state x="2029" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1614527430000">
+      <screen x="1366" y="23" width="1920" height="1057" />
+    </state>
+    <state x="472" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1366.745@0.23.1366.745" timestamp="1614507896991" />
+    <state x="2029" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1614527430000" />
+    <state x="2057" y="297" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1614526935407">
+      <screen x="1366" y="23" width="1920" height="1057" />
+    </state>
+    <state x="492" y="216" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1366.745@0.23.1366.745" timestamp="1614506610867" />
+    <state x="2057" y="297" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1614526935407" />
+    <state x="219" y="230" width="927" height="331" key="#com.intellij.structuralsearch.plugin.ui.StructuralSearchDialog" timestamp="1614286657574">
+      <screen x="0" y="23" width="1366" height="745" />
+    </state>
+    <state x="219" y="230" width="927" height="331" key="#com.intellij.structuralsearch.plugin.ui.StructuralSearchDialog/0.23.1366.745@0.23.1366.745" timestamp="1614286657574" />
+    <state x="2093" y="214" width="547" height="464" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1614518939701">
+      <screen x="1366" y="23" width="1920" height="1057" />
+    </state>
+    <state x="517" y="158" width="547" height="464" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.23.1366.745@0.23.1366.745" timestamp="1614170694451" />
+    <state x="2093" y="214" width="510" height="658" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1614518939701" />
+    <state x="1907" y="305" key="AndroidCreateResourceDirectoryDialog" timestamp="1614106246227">
+      <screen x="1366" y="23" width="1920" height="1057" />
+    </state>
+    <state x="1907" y="305" key="AndroidCreateResourceDirectoryDialog/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1614106246227" />
+    <state x="1907" y="305" key="AndroidCreateResourceFileDialog" timestamp="1614526613011">
+      <screen x="1366" y="23" width="1920" height="1057" />
+    </state>
+    <state x="385" y="222" key="AndroidCreateResourceFileDialog/0.23.1366.745@0.23.1366.745" timestamp="1614355687850" />
+    <state x="1907" y="305" key="AndroidCreateResourceFileDialog/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1614526613011" />
+    <state x="2178" y="398" key="AndroidCreateXmlResourceDialog" timestamp="1614109027667">
+      <screen x="1366" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2178" y="398" key="AndroidCreateXmlResourceDialog/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1614109027667" />
+    <state x="2166" y="444" key="Github.ShareDialog" timestamp="1614149417161">
+      <screen x="1366" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2166" y="444" key="Github.ShareDialog/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1614149417161" />
+    <state x="2004" y="257" key="Github.UntrackedFilesDialog" timestamp="1614149422684">
+      <screen x="1366" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2004" y="257" key="Github.UntrackedFilesDialog/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1614149422684" />
+    <state width="1324" height="301" key="GridCell.Tab.0.bottom" timestamp="1614532679788">
+      <screen x="0" y="23" width="1366" height="745" />
+    </state>
+    <state width="1324" height="301" key="GridCell.Tab.0.bottom/0.23.1366.745@0.23.1366.745" timestamp="1614532679788" />
+    <state width="1324" height="303" key="GridCell.Tab.0.bottom/1366.23.1920.1057/0.23.1366.745@0.23.1366.745" timestamp="1614375436384" />
+    <state width="1402" height="436" key="GridCell.Tab.0.bottom/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1614527801717" />
+    <state width="1324" height="301" key="GridCell.Tab.0.center" timestamp="1614532679787">
+      <screen x="0" y="23" width="1366" height="745" />
+    </state>
+    <state width="1324" height="301" key="GridCell.Tab.0.center/0.23.1366.745@0.23.1366.745" timestamp="1614532679787" />
+    <state width="1324" height="303" key="GridCell.Tab.0.center/1366.23.1920.1057/0.23.1366.745@0.23.1366.745" timestamp="1614375436383" />
+    <state width="1402" height="436" key="GridCell.Tab.0.center/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1614527801716" />
+    <state width="1324" height="301" key="GridCell.Tab.0.left" timestamp="1614532679787">
+      <screen x="0" y="23" width="1366" height="745" />
+    </state>
+    <state width="1324" height="301" key="GridCell.Tab.0.left/0.23.1366.745@0.23.1366.745" timestamp="1614532679787" />
+    <state width="1324" height="303" key="GridCell.Tab.0.left/1366.23.1920.1057/0.23.1366.745@0.23.1366.745" timestamp="1614375436382" />
+    <state width="1402" height="436" key="GridCell.Tab.0.left/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1614527801715" />
+    <state width="1324" height="301" key="GridCell.Tab.0.right" timestamp="1614532679788">
+      <screen x="0" y="23" width="1366" height="745" />
+    </state>
+    <state width="1324" height="301" key="GridCell.Tab.0.right/0.23.1366.745@0.23.1366.745" timestamp="1614532679788" />
+    <state width="1324" height="303" key="GridCell.Tab.0.right/1366.23.1920.1057/0.23.1366.745@0.23.1366.745" timestamp="1614375436383" />
+    <state width="1402" height="436" key="GridCell.Tab.0.right/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1614527801717" />
+    <state x="192" y="34" key="SettingsEditor" timestamp="1614533043732">
+      <screen x="0" y="23" width="1366" height="745" />
+    </state>
+    <state x="192" y="34" key="SettingsEditor/0.23.1366.745@0.23.1366.745" timestamp="1614533043732" />
+    <state x="1985" y="300" width="667" height="486" key="find.popup" timestamp="1614113643386">
+      <screen x="1366" y="23" width="1920" height="1057" />
+    </state>
+    <state x="1985" y="300" width="667" height="486" key="find.popup/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1614113643386" />
+    <state x="1993" y="342" key="git4idea.merge.GitPullDialog" timestamp="1614153526704">
+      <screen x="1366" y="23" width="1920" height="1057" />
+    </state>
+    <state x="1993" y="342" key="git4idea.merge.GitPullDialog/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1614153526704" />
+  </component>
+</project>

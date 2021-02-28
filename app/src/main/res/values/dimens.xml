@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="fab_size">56dp</dimen>
+    <dimen name="base_margin">24dp</dimen>
+    <dimen name="item_todo_icon_size">72dp</dimen>
+</resources>
