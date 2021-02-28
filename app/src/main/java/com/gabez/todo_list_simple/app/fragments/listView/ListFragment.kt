@@ -65,28 +65,22 @@ class ListFragment : Fragment(), KoinComponent, ListAdapterCallback {
             lifecycleScope.launch {
                 pagedAdapter.loadStateFlow.collectLatest { loadStates ->
 
-                    if (loadStates.refresh == LoadState.Loading) {
-                        progressBar.visibility = View.VISIBLE
-                        itemsRecyclerView.visibility = View.GONE
+                    progressBar.visibility = when(loadStates.refresh){
+                        is LoadState.NotLoading -> View.GONE
+                        LoadState.Loading -> View.VISIBLE
+                        is LoadState.Error -> View.GONE
                     }
 
-                    else {
-                        progressBar.visibility = View.GONE
-                        itemsRecyclerView.visibility = View.VISIBLE
+                    itemsRecyclerView.visibility = when(loadStates.refresh){
+                        is LoadState.NotLoading -> View.VISIBLE
+                        LoadState.Loading -> View.GONE
+                        is LoadState.Error -> View.VISIBLE
                     }
 
-                    if (loadStates.append == LoadState.Loading) progressBarLoadMore.visibility =
-                        View.VISIBLE
-
-                    else progressBarLoadMore.visibility = View.GONE
-
-                    if (loadStates.refresh is LoadState.Error) {
-                        progressBar.visibility = View.GONE
-                        itemsRecyclerView.visibility = View.VISIBLE
-                    }
-
-                    if (loadStates.append is LoadState.Error && loadStates.append !is LoadState.NotLoading) {
-                        progressBarLoadMore.visibility = View.GONE
+                    progressBarLoadMore.visibility = when(loadStates.append){
+                        is LoadState.NotLoading -> View.GONE
+                        LoadState.Loading -> View.VISIBLE
+                        is LoadState.Error -> View.GONE
                     }
 
                 }

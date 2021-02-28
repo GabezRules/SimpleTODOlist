@@ -22,39 +22,41 @@ class GlideImageComponent(
 
     fun setUrl(newUrl: String?) {
         try {
-            if (newUrl != null) {
-                if (newUrl.replace("\\s".toRegex(), "") != "") {
-                    Glide.with(context)
-                        .load(newUrl)
-                        .apply(RequestOptions().circleCrop())
-                        .error(R.drawable.ic_error)
-                        .listener(object : RequestListener<Drawable> {
-                            override fun onLoadFailed(
-                                e: GlideException?,
-                                model: Any?,
-                                target: Target<Drawable>?,
-                                isFirstResource: Boolean
-                            ): Boolean {
-                                progressBar.visibility = View.GONE
-                                return false
-                            }
+            if (newUrl == null  || newUrl.replace("\\s".toRegex(), "") == "") {
+                setPlaceholder()
+                return
+            }
 
-                            override fun onResourceReady(
-                                resource: Drawable?,
-                                model: Any?,
-                                target: Target<Drawable>?,
-                                dataSource: DataSource?,
-                                isFirstResource: Boolean
-                            ): Boolean {
-                                progressBar.visibility = View.GONE
-                                return false
-                            }
+            Glide.with(context)
+                .load(newUrl)
+                .apply(RequestOptions().circleCrop())
+                .error(R.drawable.ic_error)
+                .listener(object : RequestListener<Drawable> {
+                    override fun onLoadFailed(
+                        e: GlideException?,
+                        model: Any?,
+                        target: Target<Drawable>?,
+                        isFirstResource: Boolean
+                    ): Boolean {
+                        progressBar.visibility = View.GONE
+                        return false
+                    }
 
-                        })
-                        .into(imageView)
-                } else setPlaceholder()
+                    override fun onResourceReady(
+                        resource: Drawable?,
+                        model: Any?,
+                        target: Target<Drawable>?,
+                        dataSource: DataSource?,
+                        isFirstResource: Boolean
+                    ): Boolean {
+                        progressBar.visibility = View.GONE
+                        return false
+                    }
 
-            } else setPlaceholder()
+                })
+                .into(imageView)
+
+
         } catch (e: Exception) {
             imageView.setImageResource(R.drawable.ic_error)
             progressBar.visibility = View.GONE
@@ -62,7 +64,7 @@ class GlideImageComponent(
         }
     }
 
-    fun setPlaceholder(){
+    private fun setPlaceholder() {
         imageView.setImageResource(R.drawable.ic_placeholder)
         progressBar.visibility = View.GONE
     }

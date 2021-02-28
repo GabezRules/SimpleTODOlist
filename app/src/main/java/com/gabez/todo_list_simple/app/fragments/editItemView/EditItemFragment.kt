@@ -14,7 +14,7 @@ class EditItemFragment : ItemPreviewFragment(), KoinComponent {
     override var fragmentDescriptionText: String? = "Edit item"
 
     override var buttonAction: View.OnClickListener? = View.OnClickListener {
-        val isOk = viewModel.editItem(createTempItem())
+        val isOk = viewModel.invokeAction(createTempItem())
         if(isOk) this@EditItemFragment.findNavController().popBackStack(R.id.editItemFragment, true)
     }
 
@@ -24,7 +24,8 @@ class EditItemFragment : ItemPreviewFragment(), KoinComponent {
 
     override fun observeViewModelError() {
         viewModel.error.observe(viewLifecycleOwner, Observer {
-            it?.let{setErrors(it)}
+            it?.let{ setErrors(it) }
         })
     }
+
 }

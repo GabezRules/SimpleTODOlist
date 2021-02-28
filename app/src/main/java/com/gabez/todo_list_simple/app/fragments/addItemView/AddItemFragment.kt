@@ -11,8 +11,9 @@ class AddItemFragment : ItemPreviewFragment(), KoinComponent {
 
     private val viewModel: AddItemViewModel by inject()
     override var fragmentDescriptionText: String? = "Add item"
+
     override var buttonAction: View.OnClickListener? = View.OnClickListener {
-        val isOk = viewModel.addItem(createTempItem())
+        val isOk = viewModel.invokeAction(createTempItem())
         if(isOk) this@AddItemFragment.findNavController().popBackStack(R.id.addItemFragment, true)
     }
 

@@ -9,6 +9,8 @@ import android.widget.ProgressBar
 import android.widget.TextView
 import androidx.core.widget.doOnTextChanged
 import androidx.fragment.app.Fragment
+import androidx.lifecycle.Observer
+import com.gabez.todo_list_simple.ItemPreviewViewModel
 import com.gabez.todo_list_simple.domain.entities.ItemTODOHelper
 import com.gabez.todo_list_simple.R
 import com.gabez.todo_list_simple.app.itemValidation.ItemValidatorResponse
@@ -72,8 +74,6 @@ abstract class ItemPreviewFragment : Fragment() {
         if (!errorHolder.isTitleValid) titleInputBody.error = "enter a valid title"
     }
 
-    open fun observeViewModelError() { /*no op*/ }
-
     private fun initViews(view: View) {
         fragmentDescription = view.findViewById(R.id.fragmentDescription)
 
@@ -111,5 +111,7 @@ abstract class ItemPreviewFragment : Fragment() {
             imageComponent.setUrl(text.toString())
         }
     }
+
+    open fun observeViewModelError() { /* no op */ }
 
 }

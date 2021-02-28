@@ -29,16 +29,11 @@ class ItemValidator {
         ) != "" && description.length < ItemTODOHelper.DESCRIPTION_LENGTH
 
     private fun isUrlValid(url: String): Boolean {
-        return if(url.replace("\\s".toRegex(),"")!=""){
-
-            try{
-                val connection: URLConnection = URL(url).openConnection()
-                val contentType: String = connection.getHeaderField("Content-Type")
-                contentType.startsWith("image/")
-            }catch(e: Exception){
-                true
-            }
-
-        } else true
+        return if(url.replace("\\s".toRegex(),"")=="") true
+        else {
+            val connection: URLConnection = URL(url).openConnection()
+            val contentType: String = connection.getHeaderField("Content-Type")
+            contentType.startsWith("image/")
+        }
     }
 }
